@@ -1,0 +1,1066 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+final-wellmeadown
+</name>
+</assembly>
+<members>
+<member name="T:final_wellmeadown.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:final_wellmeadown.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:final_wellmeadown.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:final_wellmeadown.My.Resources.Resources.wa">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:final_wellmeadown.My.Resources.Resources.Well">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:final_wellmeadown.My.Resources.Resources.Well__1__removebg_preview">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:final_wellmeadown.My.Resources.Resources.Well_removebg_preview">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:final_wellmeadown.My.Resources.Resources.Well1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:final_wellmeadown.My.Resources.Resources.Well2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.bedDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.d_patient_allocationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.d_patient_medicationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.d_requisitionDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.d_ward_staff_allocationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.inventoryDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.local_doctorDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.m_patient_allocationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.m_patient_medicationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.m_requisitionDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.m_ward_staff_allocationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.orderDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.OrdererDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.patientDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.patient_appointmentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.receivedDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.staffDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.StockDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.SuppliersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.vaccineDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.vaccine_orderDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.vaccine_receivedDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.wardDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.bedRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.d_patient_allocationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.d_patient_medicationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.d_requisitionRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.d_ward_staff_allocationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.inventoryRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.local_doctorRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.m_patient_allocationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.m_patient_medicationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.m_requisitionRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.m_ward_staff_allocationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.orderRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.OrdererRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.patientRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.patient_appointmentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.receivedRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.staffRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.StockRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.SuppliersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.vaccineRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.vaccine_orderRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.vaccine_receivedRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.wardRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.bedRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.d_patient_allocationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.d_patient_medicationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.d_requisitionRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.d_ward_staff_allocationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.inventoryRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.local_doctorRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.m_patient_allocationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.m_patient_medicationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.m_requisitionRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.m_ward_staff_allocationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.orderRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.OrdererRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.patientRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.patient_appointmentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.receivedRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.staffRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.StockRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.SuppliersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.vaccineRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.vaccine_orderRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.vaccine_receivedRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet.wardRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSetTableAdapters.bedTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSetTableAdapters.d_patient_allocationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSetTableAdapters.d_patient_medicationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSetTableAdapters.d_requisitionTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSetTableAdapters.d_ward_staff_allocationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSetTableAdapters.inventoryTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSetTableAdapters.local_doctorTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSetTableAdapters.m_patient_allocationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSetTableAdapters.m_patient_medicationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSetTableAdapters.m_requisitionTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSetTableAdapters.m_ward_staff_allocationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSetTableAdapters.orderTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSetTableAdapters.OrdererTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSetTableAdapters.patientTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSetTableAdapters.patient_appointmentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSetTableAdapters.receivedTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSetTableAdapters.staffTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSetTableAdapters.StockTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSetTableAdapters.SuppliersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSetTableAdapters.vaccineTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSetTableAdapters.vaccine_orderTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSetTableAdapters.vaccine_receivedTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSetTableAdapters.wardTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:final_wellmeadown._wellmeadown_finalDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(final_wellmeadown._wellmeadown_finalDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:final_wellmeadown._wellmeadown_finalDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(final_wellmeadown._wellmeadown_finalDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:final_wellmeadown._wellmeadown_finalDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(final_wellmeadown._wellmeadown_finalDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:final_wellmeadown._wellmeadown_finalDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:final_wellmeadown._wellmeadown_finalDataSetTableAdapters.TableAdapterManager.UpdateAll(final_wellmeadown._wellmeadown_finalDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.bedDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.d_patient_allocationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.d_patient_medicationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.d_requisitionDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.d_ward_staff_allocationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.inventoryDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.local_doctorDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.m_patient_allocationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.m_patient_medicationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.m_requisitionDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.m_ward_staff_allocationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.orderDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.OrdererDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.patientDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.patient_appointmentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.receivedDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.staffDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.StockDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.SuppliersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.vaccineDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.vaccine_orderDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.vaccine_receivedDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.wardDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.bedRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.d_patient_allocationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.d_patient_medicationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.d_requisitionRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.d_ward_staff_allocationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.inventoryRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.local_doctorRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.m_patient_allocationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.m_patient_medicationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.m_requisitionRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.m_ward_staff_allocationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.orderRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.OrdererRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.patientRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.patient_appointmentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.receivedRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.staffRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.StockRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.SuppliersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.vaccineRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.vaccine_orderRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.vaccine_receivedRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.wardRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.bedRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.d_patient_allocationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.d_patient_medicationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.d_requisitionRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.d_ward_staff_allocationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.inventoryRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.local_doctorRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.m_patient_allocationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.m_patient_medicationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.m_requisitionRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.m_ward_staff_allocationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.orderRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.OrdererRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.patientRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.patient_appointmentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.receivedRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.staffRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.StockRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.SuppliersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.vaccineRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.vaccine_orderRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.vaccine_receivedRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1.wardRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1TableAdapters.bedTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1TableAdapters.d_patient_allocationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1TableAdapters.d_patient_medicationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1TableAdapters.d_requisitionTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1TableAdapters.d_ward_staff_allocationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1TableAdapters.inventoryTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1TableAdapters.local_doctorTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1TableAdapters.m_patient_allocationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1TableAdapters.m_patient_medicationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1TableAdapters.m_requisitionTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1TableAdapters.m_ward_staff_allocationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1TableAdapters.orderTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1TableAdapters.OrdererTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1TableAdapters.patientTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1TableAdapters.patient_appointmentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1TableAdapters.receivedTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1TableAdapters.staffTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1TableAdapters.StockTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1TableAdapters.SuppliersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1TableAdapters.vaccineTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1TableAdapters.vaccine_orderTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1TableAdapters.vaccine_receivedTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1TableAdapters.wardTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:final_wellmeadown._wellmeadown_finalDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(final_wellmeadown._wellmeadown_finalDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:final_wellmeadown._wellmeadown_finalDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(final_wellmeadown._wellmeadown_finalDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:final_wellmeadown._wellmeadown_finalDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(final_wellmeadown._wellmeadown_finalDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:final_wellmeadown._wellmeadown_finalDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:final_wellmeadown._wellmeadown_finalDataSet1TableAdapters.TableAdapterManager.UpdateAll(final_wellmeadown._wellmeadown_finalDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:final_wellmeadown._wellmeadown_finalDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,54 @@
+﻿Public Class vaccine_order
+    Private Sub VaccineBindingNavigatorSaveItem_Click(sender As Object, e As EventArgs) Handles VaccineBindingNavigatorSaveItem.Click
+        Me.Validate()
+        Me.VaccineBindingSource.EndEdit()
+        Me.TableAdapterManager.UpdateAll(Me._wellmeadown_finalDataSet1)
+
+    End Sub
+
+    Private Sub vaccine_order_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        'TODO: This line of code loads data into the '_wellmeadown_finalDataSet1.vaccine' table. You can move, or remove it, as needed.
+        Me.VaccineTableAdapter.Fill(Me._wellmeadown_finalDataSet1.vaccine)
+
+    End Sub
+
+    Private Sub btn_staff_Click(sender As Object, e As EventArgs) Handles btn_staff.Click
+        staff.Show()
+        Me.Close()
+    End Sub
+    Private Sub btn_patient_Click(sender As Object, e As EventArgs) Handles btn_patient.Click
+        patient.Show()
+        Me.Close()
+
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles btnd_staff_allocation.Click
+        staff_allocation.Show()
+        Me.Close()
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btn_patient_allocation.Click
+        patient_allocation.Show()
+        Me.Close()
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles btn_patient_appointment.Click
+        Patient_appointment.Show()
+        Me.Close()
+    End Sub
+
+    Private Sub Button3_Click_1(sender As Object, e As EventArgs) Handles btn_patient_medication.Click
+        patient_medication.Show()
+        Me.Close()
+    End Sub
+
+    Private Sub btn_suppiler_Click(sender As Object, e As EventArgs) Handles btn_suppiler.Click
+        Suppiler.Show()
+        Me.Close()
+    End Sub
+
+    Private Sub btn_logout_Click(sender As Object, e As EventArgs) Handles btn_logout.Click
+        LOGIN.Show()
+        Me.Close()
+    End Sub
+End Class

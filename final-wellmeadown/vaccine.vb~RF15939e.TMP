@@ -1,0 +1,79 @@
+﻿Imports System.Data
+Imports System.Data.SqlClient
+Public Class vaccine
+
+    Private connectionString As String = "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\kitti\source\repos\final-wellmeadown\final-wellmeadown\wellmeadown-final.mdf;Integrated Security=True;Connect Timeout=30"
+
+    Dim sqlSelectQuery As String = "select * from viccine"
+    Dim sqlConnection As New SqlConnection(connectionString)
+    Dim sqlCommand As New SqlCommand(sqlSelectQuery, sqlConnection)
+    Dim sqlReader As SqlDataReader
+
+
+    Private Sub vaccine_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        'TODO: This line of code loads data into the '_wellmeadown_finalDataSet1.vaccine' table. You can move, or remove it, as needed.
+        Me.VaccineTableAdapter.Fill(Me._wellmeadown_finalDataSet1.vaccine)
+        'TODO: This line of code loads data into the '_wellmeadown_finalDataSet1.Orderer' table. You can move, or remove it, as needed.
+        Me.OrdererTableAdapter1.Fill(Me._wellmeadown_finalDataSet1.Orderer)
+
+
+    End Sub
+
+    Private Sub ReadMydata(connection As String)
+
+        sqlReader = sqlCommand.ExecuteReader()
+        sqlReader.Read()
+
+        Order_idTextBox.Text = sqlReader.Item("Order_id")
+        Id_cardTextBox.Text = sqlReader.Item("Id_card")
+        First_nameTextBox.Text = sqlReader.Item("First_name")
+        Last_nameTextBox.Text = sqlReader.Item("Last_name")
+        GenderTextBox.Text = sqlReader.Item("Genderr")
+        AddressTextBox.Text = sqlReader.Item("Address")
+        TelephoneTextBox.Text = sqlReader.Item("Telephone")
+        Vaccine_nameTextBox.Text = sqlReader.Item("Vaccine_name")
+        DosesTextBox.Text = sqlReader.Item("Doses")
+
+
+    End Sub
+    Private Sub btn_save_Click(sender As Object, e As EventArgs) Handles btn_save.Click
+
+        If Order_idTextBox.Text = "select order_id from orderer" Then
+
+            MessageBox.Show("ข้อมูล " & First_nameTextBox.Text & " มีในระบบแล้ว กรุณาตรวจสอบ", "ข้อความจากระบบ", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+
+        Else
+            MessageBox.Show("บันทึกข้อมูล " & First_nameTextBox.Text & " สำเร็จ", "ข้อความจากระบบ", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            InsertMyData(connectionString)
+
+            ReadMydata(connectionString)
+
+        End If
+
+
+    End Sub
+
+    Private Sub InsertMyData(connectionString As String)
+
+        Dim sqlInsert As String = ("insert into Orderer (order_id ,id_card ,first_name ,last_name ,address ,gender ,telephone ,doses ,vaccine_vaccine_ID)
+values (" & Order_idTextBox.Text & ",'" & Id_cardTextBox.Text & "','" & First_nameTextBox.Text & "','" & Last_nameTextBox.Text &
+"','" & AddressTextBox.Text & "','" & GenderTextBox.Text & "'," & TelephoneTextBox.Text & ",'" & DosesTextBox.Text &
+"','" & Vaccine_nameTextBox.Text & "')")
+
+
+        Debug.WriteLine(sqlInsert)
+        Dim sqlCommand As New SqlCommand(sqlInsert, sqlConnection)
+        sqlConnection.Close()
+        sqlConnection.Open()
+        sqlCommand.ExecuteNonQuery()
+    End Sub
+
+    Private Sub btn_back_Click(sender As Object, e As EventArgs) Handles btn_back.Click
+        Me.Close()
+        LOGIN.Show()
+    End Sub
+
+    Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox3.Click
+
+    End Sub
+End Class
