@@ -1,2 +1,2 @@
-# Test-Github-101
-เทสๆ ฮาโหลๆ
+# university course project "Wellmeadows hospital
+โปรเจควิชาฐานข้อมูลมหาวิทยาลัยเทคโนโลยีสุุรนารี
