@@ -1,2 +1,2 @@
 # university course project "Wellmeadows hospital
-โปรเจควิชาฐานข้อมูลมหาวิทยาลัยเทคโนโลยีสุุรนารี
+Project in Database Administration
